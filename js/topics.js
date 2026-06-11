@@ -25,7 +25,7 @@ const BIOBOOK_TOPICS = [
         title: "BioBook",
         tag: "Category",
         difficulty: "Medium",
-        file: "BioBook/Index.html",
+        file: "BioBook/index.html",
         summary: "The Biology section of Library",
     },
     {
@@ -33,7 +33,7 @@ const BIOBOOK_TOPICS = [
         title: "HumanBook",
         tag: "Category",
         difficulty: "Hard",
-        file: "HumanBook/Index.html",
+        file: "HumanBook/index.html",
         summary: "The Humanities section of Library",
     },
     {
@@ -41,7 +41,7 @@ const BIOBOOK_TOPICS = [
         title: "EnglishBook",
         tag: "Category",
         difficulty: "Easy",
-        file: "EnglishBook/Index.html",
+        file: "EnglishBook/index.html",
         summary: "The English section of Library.",
     },
     // ── ADD MORE TOPICS BELOW ──────────────────────────────────────────────────
