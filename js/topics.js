@@ -25,7 +25,7 @@ const BIOBOOK_TOPICS = [
         title: "Biological Systems",
         tag: "Category",
         difficulty: "Easy",
-        file: "pages/topic-1.html",
+        file: "Pages/topic-1.html",
         summary: "Species, naming schemes, grouping, populations, communities, ecosystems.",
     },
     {
@@ -33,7 +33,7 @@ const BIOBOOK_TOPICS = [
         title: "Topic 2",
         tag: "Category",
         difficulty: "Hard",
-        file: "pages/topic-2.html",
+        file: "Pages/topic-2.html",
         summary: "Add a one-sentence description of this topic here.",
     },
     {
@@ -41,7 +41,7 @@ const BIOBOOK_TOPICS = [
         title: "Topic 3",
         tag: "Category",
         difficulty: "Easy",
-        file: "pages/topic-3.html",
+        file: "Pages/topic-3.html",
         summary: "Add a one-sentence description of this topic here.",
     },
     // ── ADD MORE TOPICS BELOW ──────────────────────────────────────────────────
