@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BioBook</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header id="site-header">
+    <div class="header-inner">
+        <a href="index.html" class="site-logo">BioBook</a>
+        <nav class="header-nav">
+            <a href="index.html" class="nav-link active">Home</a>
+            <a href="pages/chat.html" class="nav-link">Class Chat</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== HERO ========== -->
+<section id="hero">
+    <h1>BioBook Guide!</h1>
+    <p class="hero-sub">Everything we didn't get to cover in class — all in one place.</p>
+
+    <!-- SEARCH BAR -->
+    <div class="search-wrapper">
+        <input
+                type="text"
+                id="topic-search"
+                placeholder="Search topics..."
+                autocomplete="off"
+        />
+        <div id="search-results" class="search-dropdown" hidden></div>
+    </div>
+</section>
+
+<!-- ========== PROGRESS BANNER ========== -->
+<section id="progress-banner">
+    <div class="progress-inner">
+        <span id="progress-label">0 of 0 topics studied</span>
+        <div class="progress-bar-track">
+            <div class="progress-bar-fill" id="progress-bar-fill"></div>
+        </div>
+        <button id="reset-progress-btn" class="btn-ghost">Reset progress</button>
+    </div>
+</section>
+
+<!-- ========== TOPIC GRID ========== -->
+<main id="topic-grid-section">
+    <div id="topic-grid" class="topic-grid">
+        <!-- Cards are injected by topics.js -->
+    </div>
+</main>
+
+<!-- ========== FOOTER ========== -->
+<footer id="site-footer">
+    <p>Made with love for all my classmates · <a href="pages/chat.html">Go to Class Chat</a></p>
+</footer>
+
+<script src="js/topics.js"></script>
+<script src="js/search.js"></script>
+<script src="js/progress.js"></script>
+</body>
+</html>
