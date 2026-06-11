@@ -22,11 +22,11 @@ const BIOBOOK_TOPICS = [
     // ── EXAMPLE ENTRIES — replace or delete these ──────────────────────────────
     {
         id: "topic-1",
-        title: "Topic 1",
+        title: "Biological Systems",
         tag: "Category",
-        difficulty: "Medium",
+        difficulty: "Easy",
         file: "pages/topic-1.html",
-        summary: "Add a one-sentence description of this topic here.",
+        summary: "Species, naming schemes, grouping, populations, communities, ecosystems.",
     },
     {
         id: "topic-2",

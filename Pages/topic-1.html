@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Section 1 | BioBook</title>
+    <link rel="stylesheet" href="../css/style.css" />
+</head>
+<body>
+
+<!-- ========== HEADER ========== -->
+<header id="site-header">
+    <div class="header-inner">
+        <a href="../index.html" class="site-logo">BioBook</a>
+        <nav class="header-nav">
+            <a href="../index.html" class="nav-link">← All Topics</a>
+            <a href="chat.html" class="nav-link">Class Chat</a>
+        </nav>
+    </div>
+</header>
+
+<!-- ========== TOPIC HEADER ========== -->
+<section id="topic-header">
+    <!--
+      HOW TO USE THIS TEMPLATE:
+      1. Duplicate this file and rename it (e.g. "cell-division.html")
+      2. Fill in the h1, the topic-meta spans, and the content sections below
+      3. Add the new topic to js/topics.js so it appears on the home page
+    -->
+    <div class="topic-header-inner">
+        <h1 id="topic-title"><!-- e.g. Cell Division --></h1>
+        <div class="topic-meta">
+            <span class="topic-tag" id="topic-tag"><!-- e.g. Cell Biology --></span>
+            <span class="topic-difficulty" id="topic-difficulty"><!-- e.g. Medium --></span>
+        </div>
+        <!-- MARK AS STUDIED BUTTON -->
+        <button class="btn-studied" id="studied-btn" data-topic-id="">
+            <!-- data-topic-id must match the id in topics.js -->
+            Mark as studied
+        </button>
+    </div>
+</section>
+
+<!-- ========== MAIN CONTENT ========== -->
+<main id="topic-content">
+
+    <!-- KEY CONCEPTS -->
+    <section class="content-section" id="key-concepts">
+        <h2>Key Concepts</h2>
+        <!--
+          Add your explanation here.
+          Use <p>, <ul>, <ol>, <figure>, <img>, <table> — whatever suits the topic.
+        -->
+    </section>
+
+    <!-- DIAGRAMS / VISUALS -->
+    <section class="content-section" id="visuals">
+        <h2>Diagrams &amp; Visuals</h2>
+        <!--
+          Drop <img> tags here, or embed SVGs.
+          Recommended: save images inside an /assets/ folder at the project root.
+        -->
+    </section>
+
+    <!-- NOTES / TIPS -->
+    <section class="content-section" id="notes">
+        <h2>Notes &amp; Exam Tips</h2>
+        <!--
+          Things to memorise, common mistakes, what the examiners look for.
+        -->
+    </section>
+
+</main>
+
+<!-- ========== PREV / NEXT NAVIGATION ========== -->
+<nav id="topic-nav" class="topic-page-nav">
+    <a href="#" id="prev-topic" class="btn-nav" hidden>← Previous</a>
+    <a href="#" id="next-topic" class="btn-nav" hidden>Next →</a>
+</nav>
+
+<!-- ========== FOOTER ========== -->
+<footer id="site-footer">
+    <p>Made with love for all my classmates! · <a href="chat.html">Go to Class Chat</a></p>
+</footer>
+
+<script src="../js/topics.js"></script>
+<script src="../js/progress.js"></script>
+<script src="../js/topic-page.js"></script>
+</body>
+</html>
