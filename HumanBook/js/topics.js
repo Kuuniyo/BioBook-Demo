@@ -22,11 +22,11 @@ const BIOBOOK_TOPICS = [
     // ── EXAMPLE ENTRIES — replace or delete these ──────────────────────────────
     {
         id: "topic-1",
-        title: "TBA",
+        title: "SECCIÓN 1",
         tag: "Category",
         difficulty: "Easy",
         file: "Pages/topic-1.html",
-        summary: "TBA",
+        summary: "Imperialismo, WWI, WWII...",
     },
     {
         id: "topic-2",
