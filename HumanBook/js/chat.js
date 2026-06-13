@@ -10,8 +10,8 @@
  */
 
 // ── CONFIG — paste your values here ──────────────────────────────────────────
-const SUPABASE_URL  = "https://jqusfqlfppzkkmjtmsuf.supabase.co";  // e.g. https://xyzxyz.supabase.co
-const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImpxdXNmcWxmcHB6a2ttanRtc3VmIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODExMjU4NDgsImV4cCI6MjA5NjcwMTg0OH0.pwvOsLB68AfKVhD4z-VDgUOBELRCilA77zyer32GTkw";     // the long eyJhbG... string
+const SUPABASE_URL  = "https://swblfllfnyavpopacvys.supabase.co";  // e.g. https://xyzxyz.supabase.co
+const SUPABASE_ANON = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InN3YmxmbGxmbnlhdnBvcGFjdnlzIiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODEzNjg2MzIsImV4cCI6MjA5Njk0NDYzMn0.MMI0GwQ1xLTAHY5Xy7bwLBFWWQQEu3WGI20mUyxwR7k";     // the long eyJhbG... string
 // ─────────────────────────────────────────────────────────────────────────────
 
 const MAX_MESSAGES      = 100;
